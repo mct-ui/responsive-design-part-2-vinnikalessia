@@ -211,7 +211,7 @@ a:focus {
         padding-bottom: 48px;
     }
 }
-.o-row-neutral-x-light{
+.o-row--neutral-x-light{
     background-color: #f7f7f7;
 }
 
@@ -614,18 +614,65 @@ a:focus {
 }
 
 .c-link-cta--inverse::after{
-    color:white;
     background-color: white;
 }
 
 .c-lick-cta--inverse:hover{
-    color: white;
+    background-color: white;
 }
 
 .c-lick-cta--inverse:hover ::after{
-    color: white;
     background-color: white;
 }
+
+/*
+    Component: footer
+    ---
+    Main footer of the website
+*/
+
+.c-footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.c-footer__logo {
+    width: 100%;
+}
+
+.c-footer__nav {
+    width: 50%;
+}
+
+@media (min-width: 768px) {
+    .c-footer {
+    }
+
+    .c-footer__logo {
+
+    }
+
+    .c-footer__nav {
+
+    }
+}
+
+@media (min-width: 992px) {
+    .c-footer {
+    }
+
+    .c-footer__logo {
+    }
+
+    .c-footer__logo .c-logo {
+    }
+
+    .c-footer__nav {
+    }
+}
+
+
+
 
 /*------------------------------------*\
   #UTILITIES
