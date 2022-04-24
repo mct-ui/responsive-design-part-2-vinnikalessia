@@ -582,6 +582,7 @@ a:focus {
     color: #7373F5;
 }
 
+
 .c-link-cta::after {
     content: "";
     display: block;
@@ -607,6 +608,8 @@ a:focus {
     background-color: #3E3EA8;
 }
 
+/* inversed versie */
+
 .c-link-cta--inverse,
 .c-link-cta--inverse:visited,
 .c-link-cta--inverse:active{
@@ -617,11 +620,11 @@ a:focus {
     background-color: white;
 }
 
-.c-lick-cta--inverse:hover{
-    background-color: white;
+.c-link-cta--inverse:hover{
+    color: white;
 }
 
-.c-lick-cta--inverse:hover ::after{
+.c-link-cta--inverse:hover::after{
     background-color: white;
 }
 
