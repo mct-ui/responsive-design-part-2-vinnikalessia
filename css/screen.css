@@ -649,14 +649,21 @@ a:focus {
 
 @media (min-width: 768px) {
     .c-footer {
+        display: flex;
+        gap: 24px;
+        /* justify-content: space-between; */
+        justify-content: center;
     }
 
     .c-footer__logo {
-
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .c-footer__nav {
-
+        display: block;
     }
 }
 
@@ -665,6 +672,7 @@ a:focus {
     }
 
     .c-footer__logo {
+
     }
 
     .c-footer__logo .c-logo {
